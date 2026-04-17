@@ -17,7 +17,7 @@
 .card1 {
   background-color: #F7F8F9;
   width: 100%;
-  max-width: 305px; /* Limits width on larger screens */
+  max-width: 280px; /* Limits width on larger screens */
   
   /* Mobile Default: Full screen height */
   /* min-height: 100vh;  */

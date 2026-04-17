@@ -7,7 +7,7 @@
 
 .container2 {
   background-color: #f7f8f9;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,7 @@
 .card2 {
   background-color: #f7f8f9;
   width: 100%;
+  min-width: 280px;
   min-height: 612px;
   display: flex;
   flex-direction: column;
@@ -97,12 +98,14 @@ input[type="text"] {
 }
 .btn-create {
   width: 100%;
-  padding: 16px;
+  padding: 20px;
   background-color: #6c25ff;
   color: #fff;
   border: none;
   border-radius: 6px;
-  font-weight: 600;
+  font-weight: 800;
   cursor: pointer;
-  
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
