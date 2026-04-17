@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-.container {
+.container1 {
   background-color: #ffffff;
   min-height: 100vh;
   display: flex;
@@ -14,10 +14,10 @@
   font-family: "Inter", sans-serif;
 }
 
-.card {
+.card1 {
   background-color: #F7F8F9;
   width: 100%;
-  max-width: 400px; /* Limits width on larger screens */
+  max-width: 305px; /* Limits width on larger screens */
   
   /* Mobile Default: Full screen height */
   /* min-height: 100vh;  */
@@ -32,14 +32,14 @@
 
 /* Laptop/Desktop adjustment */
 @media (min-width: 345px) {
-  .card {
+  .card1 {
     min-height: auto;
     height: 580px; /* Fixed height for centered card look */
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   }
 
-  .container {
+  .container1 {
     padding: 20px; /* Adds breathing room around the card on PC */
   }
 }
@@ -82,7 +82,7 @@ input {
   outline: none;
 }
 
-.btn-login {
+.lg-btn{
   width: 100%;
   padding: 16px;
   background-color: #cbcbcb;
@@ -92,4 +92,9 @@ input {
   font-weight: 600;
   cursor: pointer;
   margin-top: 10px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
+
+

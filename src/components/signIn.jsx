@@ -5,8 +5,8 @@ import './signIn.css'
 const signIn = () => {
   return (
     <div>
-      <div className="container">
-        <div className="card">
+      <div className="container1">
+        <div className="card1">
           <div className="content">
             <h1 className="title">
               Signin to your <br /> PopX account
@@ -25,7 +25,7 @@ const signIn = () => {
               <input type="password" placeholder="Enter password" />
             </div>
 
-            <Link to="/signUp" className="btn-login">Login</Link>
+            <Link to="/signUp" className='lg-btn' >Login</Link>
           </div>
         </div>
       </div>

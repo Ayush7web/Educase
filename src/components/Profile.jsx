@@ -4,8 +4,8 @@ import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div className="container">
-      <div className="card">
+    <div className="container3">
+      <div className="card3">
         <div className="header">Account Settings</div>
         <div className="profile-content">
           <div className="profile-info">

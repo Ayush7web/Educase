@@ -4,8 +4,8 @@ import "./signUp.css";
 import { Link } from "react-router-dom";
 const signUp = () => {
   return (
-    <div className="container">
-      <div className="card">
+    <div className="container2">
+      <div className="card2">
         <div className="content">
           <h1 className="title">
             Create your <br /> PopX account
