@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Laptop pe center dikhega */
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  background-color: #F7F8F9;
+  width: 100%;
+  max-width: 400px; /* Limits width on larger screens */
+  
+  /* Mobile Default: Full screen height */
+  /* min-height: 100vh;  */
+  
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+/* Laptop/Desktop adjustment */
+@media (min-width: 345px) {
+  .card {
+    min-height: auto;
+    height: 580px; /* Fixed height for centered card look */
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    padding: 20px; /* Adds breathing room around the card on PC */
+  }
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d2129;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+.description {
+  color: #909090;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.floating-label {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  background: #fff;
+  padding: 0 5px;
+  color: #6c25ff;
+  font-size: 13px;
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 16px;
+  background-color: #cbcbcb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
